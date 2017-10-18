@@ -171,9 +171,22 @@ img {
     
  /*TIPOGRAFIAS*/
     
-h1 { font-size: 2em;
+h1 { }
+    
+h2 {font-size: 2em;
      width: 100%;
-     padding: 0px 5px 5px 5px;}
+     padding: 0px 5px 5px 5px;  }
+    
+h3 { display: block;
+     width: 100%;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+    background-color: #72c275;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    
+    }
 
 
 
@@ -223,6 +236,8 @@ main#content { width: 100%;
             padding: 15px 0px 15px 0px;
             }
     
+.cats { display: none;}
+    
 .padreart article { display: block;
                     min-height: 1px;
                     }
@@ -235,21 +250,41 @@ main#content { width: 100%;
         height: auto;}
 
 #sidebar { width: 100%;
-           min-height: 1px;}
+           min-height: 1px;
+           padding-bottom: 20px;}
     
 
 
-#padreareas { }
+#padreareas { width: 100%;
+             min-height: 1px;}
 
-.areas { }
+.areas { display: flex;
+         flex-flow: column;
+         width: 100%;}
+    
+.itemsarea { width: 100%;
+             min-height: 100px;
+             margin-bottom: 10px;
+             background-color: red;
+    }
 
-#padretest { }
+#padretest { width: 100%;
+             min-height: 1px; }
 
-.test { }
+.test { width: 100%;
+        min-height: 1px;}
 
-#pie { }
+#pie { width: 100%;
+       min-height: 1px;
+       background-color: #72c275;
+       border-bottom: 13px solid #477b49;}
 
-.areapie { }
+.areapie { display: flex;
+           flex-flow: column;
+           min-height: 1px;}
+
+.pieitems { width: 100%;
+            min-height: 1px;}
 
 
 
