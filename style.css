@@ -286,6 +286,19 @@ main#content { width: 100%;
 .pieitems { width: 100%;
             min-height: 1px;}
 
+img.prod { display: block;
+               width: 100px;
+               height: auto;}
+    
+    ul.socials { display: flex;
+                 flex-flow: row wrap;
+                 width: 200px;
+                 margin: auto;
+                 min-height: 1px;}
+    
+    .socialitems { width: 66.66px;
+                   min-height: 1px;}
+
 
 
 
