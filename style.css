@@ -175,7 +175,10 @@ h1 { }
     
 h2 {font-size: 2em;
      width: 100%;
-     padding: 0px 5px 5px 5px;  }
+     text-align: center;
+    display: block;
+        box-sizing: border-box;
+     padding: 0px 0px 5px 0px;  }
     
 h3 { display: block;
      width: 100%;
@@ -187,6 +190,13 @@ h3 { display: block;
     color: whitesmoke;
     
     }
+    
+    h5 { font-size: 1.5em;
+         font-weight: bold;
+         padding: 5px 0px;
+         display: block;
+        text-align: center;
+         box-sizing: border-box;}
 
 
 
@@ -240,18 +250,31 @@ main#content { width: 100%;
     
 .padreart article { display: block;
                     min-height: 1px;
+                    padding: 10px 15px;
+                    box-sizing: border-box;
                     }
 .padreart p { padding: 5px 5px 5px 5px;
               font-size: 1.1em;}
     
 .tumbs {display: block;
-        width: 350px;
+        width: 100%;
         margin: auto;
         height: auto;}
+    
+.readmore  { text-decoration: none;
+                 font-size: 1em;
+                 display: block;
+                 color: black;
+                 width: 90px;
+                 background-color: rgba(68, 68, 68, 0.37);}
+    
+#arrow { font-size: 1em !important; }
 
 #sidebar { width: 100%;
            min-height: 1px;
-           padding-bottom: 20px;}
+           box-sizing: border-box;
+           font-size: 1.1em;
+           padding: 0px 15px 20px 15px;}
     
 
 
@@ -260,18 +283,26 @@ main#content { width: 100%;
 
 .areas { display: flex;
          flex-flow: column;
-         width: 100%;}
+         width: 100%;
+         box-sizing: border-box;
+         padding: 0px 15px;}
     
 .itemsarea { width: 100%;
              min-height: 100px;
              margin-bottom: 10px;
-             background-color: red;
+             
     }
+    
+.itemsarea img { display: block;
+                 width: 100%;
+                height: auto;
+                margin: auto;}
 
 #padretest { width: 100%;
              min-height: 1px; }
 
 .test { width: 100%;
+        padding: 20px 5px;
         min-height: 1px;}
 
 #pie { width: 100%;
@@ -281,23 +312,42 @@ main#content { width: 100%;
 
 .areapie { display: flex;
            flex-flow: column;
+            padding: 15px;
+            box-sizing: border-box;
            min-height: 1px;}
 
 .pieitems { width: 100%;
-            min-height: 1px;}
+            min-height: 1px;
+            padding-bottom: 20px;}
+    
+    #pie > aside > div:nth-child(2) > p { text-align: center; }
+    
+.bott { padding-bottom: 0px; }
 
 img.prod { display: block;
                width: 100px;
+               margin: auto;
                height: auto;}
     
     ul.socials { display: flex;
                  flex-flow: row wrap;
                  width: 200px;
-                 margin: auto;
+                 margin: 10px auto 0px auto;
+                 list-style-type: none;
                  min-height: 1px;}
     
     .socialitems { width: 66.66px;
                    min-height: 1px;}
+    
+    .socialitems a { display: block;
+                     width: 100%;
+                     text-align: center;
+                     
+                     }
+    
+    .fa { font-size: 2em !important;
+          color: black;}
+    
 
 
 
