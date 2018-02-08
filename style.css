@@ -396,6 +396,8 @@ img.prod { display: block;
             min-height: 1px;
             padding: 10px;
             }
+.areas { width: 450px;
+         margin: auto;}
         
    }
     
