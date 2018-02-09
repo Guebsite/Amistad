@@ -428,3 +428,21 @@ img.prod { display: block;
             padding: 15px;}
     
 }
+
+/*1024 breakpoint*/
+@media only screen and (min-width: 768px) { 
+
+    #menu ul { }
+
+    .areas { width: 800px;
+             flex-flow: row wrap;}
+    .itemsarea { width: 48%;
+                 margin: 7px;}
+}
+
+
+
+
+
+
+
