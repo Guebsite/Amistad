@@ -174,7 +174,7 @@ img {
     
 h1 { }
     
-h2 {font-size: 2em;
+h2, h4 {font-size: 2em;
      width: 100%;
      text-align: left;
     display: block;
@@ -427,17 +427,125 @@ img.prod { display: block;
             box-sizing: border-box;
             padding: 15px;}
     
+    .padreart article { border-bottom: dotted 1px rgba(0, 0, 0, 0.27);}
+    
+    .cats { display: flex;
+            flex-flow: row;
+            width: 30%;
+            float: right;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.27);}
+    
+    .cats a { text-decoration: none;
+              color: black;
+              }
+    .cats a:hover { text-decoration: underline;
+              }
+    
+    .catitems { width: 20%;
+                line-height: 3.2;
+                }
+    .textcat { text-align: right;
+               font-weight: bold;}
+    .textatr { text-align: left;
+               width: 80%;
+               padding-left: 5px;}
+    
+    h2 { width: 70%;
+         float: left;
+         }
+    
+    .areas { width: 100%;
+             padding: 20px 0px 20px 0px;
+             flex-flow: row wrap;
+             justify-content: space-around;
+             
+        }
+    
+    .itemsarea { width: 45%;
+                 }
+    
 }
 
+/*992 breakpoint*/
+@media only screen and (min-width: 992px) { 
+
+.padreart .imageblog {  width: 20%;} 
+    
+   .padreart .cuerpoblog {
+    width: 72.5%;}
+    
+    .padreart .imageblog {
+    width: 25%;
+}
+    h4 { font-size: 1.6em;
+         padding-top: 20px;}
+    
+}
+
+
+
+
 /*1024 breakpoint*/
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 1024px) { 
+    
+    .sitebrand { width: 1024px;
+                 margin: auto;}
+    
+    #menu { float: none;
+            min-height: 50px;
+            padding: 10px;
+            overflow: hidden;}
 
-    #menu ul { }
+    #menu ul { width: 720px;
+               float: none;
+               margin: auto;
+               display: flex;
+               flex-flow: row;
+               }
+    #menu li { width: 20%;
+               text-align: center;}
+    
+    #menu a { font-size: 1.5em; }
+    
+    #menu a:hover { color: black;
+                    text-decoration: underline;}
 
-    .areas { width: 800px;
+    .areas { width: 992px;
              flex-flow: row wrap;}
-    .itemsarea { width: 48%;
+    
+    .itemsarea { width: 30%;
                  margin: 7px;}
+    
+    main#content { display: flex;
+                   flex-flow: row;
+                   width: 992px;
+                   margin: auto;
+                   
+               }
+    
+    .padreart { width: 70%; }
+    
+    #sidebar { width:  30%;
+               box-sizing: border-box;}
+    
+    .areapie { flex-flow: row;
+               width: 992px;
+               margin: auto;}
+    
+    img.prod { margin-top: 60px;
+}
+    
+    .fa { font-size: 3.1em !important; }
+    
+    .test { width: 992px;
+            margin: auto;}
+    
+    ul.socials { margin-top: 20px;
+                 width: 230px;
+                 justify-content:space-around;
+                 }
+    
+    
 }
 
 
