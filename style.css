@@ -180,6 +180,8 @@ h2, h4 {font-size: 2em;
     display: block;
         box-sizing: border-box;
      padding: 0px 0px 5px 0px;  }
+
+h4 { text-align: center; }
     
 h3 { display: block;
      width: 100%;
@@ -198,6 +200,26 @@ h3 { display: block;
          display: block;
         text-align: center;
          box-sizing: border-box;}
+
+h6 { font-size: 1.5em;
+     display: block;
+     line-height: 2;
+     text-align: center;}
+
+.btnserv { font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #89B8BA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+    box-shadow: 1px 1px 2px black;
+ margin: 15px auto 25px auto;
+ width: 250px;}
+
+.btnserv:hover, .btnserv:active { background: #367A7D;
+                                  text-decoration: none; }
 
 
 
@@ -283,7 +305,8 @@ main#content { width: 100%;
                  margin-top: 18px;
                  min-height: 1px;
                  padding: 10px;
-                 background-color: rgba(68, 68, 68, 0.37);}
+                 /*background-color: rgba(68, 68, 68, 0.37);*/
+                 background-color: #89B8BA;}
     
    
         
@@ -327,6 +350,13 @@ main#content { width: 100%;
         padding: 20px 15px;
         box-sizing: border-box;
         min-height: 1px;}
+
+.test p { text-align: center;
+          font-style: italic;
+          font-size: 1.3em;
+          margin-bottom: 15px;}
+
+.test a.readmore { margin: 0px auto 10px auto; }
 
 #pie { width: 100%;
        min-height: 1px;
@@ -478,7 +508,7 @@ img.prod { display: block;
     width: 25%;
 }
     h4 { font-size: 1.6em;
-         padding-top: 20px;}
+         padding-top: 10px;}
     
 }
 
@@ -544,6 +574,24 @@ img.prod { display: block;
                  width: 230px;
                  justify-content:space-around;
                  }
+    
+    
+}
+
+/*1280 breakpoint*/
+@media only screen and (min-width: 1280px) {
+    
+    .sitebrand { width: 1110px;
+                 }
+    
+    main#content {   width: 1110px;}
+    
+    .areas { width: 1110px;
+             }
+    
+    .areapie { 
+               width: 1110px;
+               }
     
     
 }
