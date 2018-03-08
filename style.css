@@ -257,7 +257,9 @@ h6 { font-size: 1.5em;
              min-height: 300px;
              background-color: #72c275;}
 
-.videos { }
+.videos { width: 100%;
+          min-height: 1px;
+          padding: 15px 0px;}
 
 main#content { width: 100%;
            display: block;
@@ -539,6 +541,8 @@ img.prod { display: block;
     
     #menu a:hover { color: black;
                     text-decoration: underline;}
+    
+    .videos { width: 992px;}
 
     .areas { width: 992px;
              flex-flow: row wrap;}
@@ -584,6 +588,8 @@ img.prod { display: block;
     .sitebrand { width: 1110px;
                  }
     
+    .videos { width: 1110px;}
+    
     main#content {   width: 1110px;}
     
     .areas { width: 1110px;
@@ -596,6 +602,25 @@ img.prod { display: block;
     
 }
 
+/*1380 breakpoint*/
+@media only screen and (min-width: 1380px) {
+    
+    .sitebrand { width: 1130px; }
+    
+    .videos { width: 1130px; }
+    
+    main#content { width: 1130px;}
+    
+    .padreart p, #sidebar p { font-size: 1.3em;}
+    
+    a.readmore { font-size: 0.9em; }
+    
+    .areas { width: 1130px; }
+    
+    .areapie { width: 1130px; }    
+    
+    
+}
 
 
 
