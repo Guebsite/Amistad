@@ -254,7 +254,7 @@ h6 { font-size: 1.5em;
           overflow: hidden;}
 
 .supslider { width: 100%;
-             min-height: 300px;
+             min-height: 400px;
              background-color: #72c275;}
 
 .videos { width: 100%;
@@ -452,12 +452,17 @@ img.prod { display: block;
     
     #menu a { color: white;}
     
-    .sitebrand { display: block;
+    .sitebrand { display: flex;
+                 justify-content: flex-start;
                  height: 80px;}
+    
+    .txtamistad { font-family: times;
+                  font-size: 2.3em;
+                  padding-top: 30px ;}
     
     .logo { width: 250px;
             box-sizing: border-box;
-            padding: 15px;}
+            padding: 15px 0px 15px 15px ;}
     
     .padreart article { border-bottom: dotted 1px rgba(0, 0, 0, 0.27);}
     
